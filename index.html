@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Project</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4ff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 12px #cccccc;
+        }
+
+        h1 {
+            color: #2457d6;
+        }
+
+        p {
+            color: #444444;
+            font-size: 18px;
+        }
+
+        button {
+            background: #2457d6;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #163ca0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to My AI Project</h1>
+
+        <p>
+            Hello! My name is Yash Gandhi.
+        </p>
+
+        <p>
+            This is my Practical 15 project.
+            I am learning to deploy a website using GitHub Pages.
+        </p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Hello Yash! Your website is working successfully.";
+        }
+    </script>
+</body>
+</html>
